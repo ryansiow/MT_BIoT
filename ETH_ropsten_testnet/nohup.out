@@ -1,0 +1,9 @@
+
+INFO [09-23|09:46:37.335] Imported new block headers               count=1    elapsed=5.092ms   number=11,090,674 hash=16ad31..485d28
+INFO [09-23|09:46:49.333] Got interrupt, shutting down... 
+INFO [09-23|09:46:49.336] HTTP server stopped                      endpoint=127.0.0.1:8545
+INFO [09-23|09:46:49.337] IPC endpoint closed                      url=/Users/RyanSiow/Library/Ethereum/ropsten/geth.ipc
+INFO [09-23|09:46:49.890] Looking for peers                        peercount=0 tried=0 static=0
+INFO [09-23|09:46:49.890] Blockchain stopped 
+INFO [09-23|09:46:49.891] Transaction pool stopped 
+INFO [09-23|09:46:49.898] Light ethereum stopped 
