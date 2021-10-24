@@ -12,3 +12,6 @@ Private blockchain and how to launch one
 
 ### ETH Ropsten Testnet
 Public blockchain on the Ropsten Testnet
+
+### DOI
+[![DOI](https://zenodo.org/badge/420721461.svg)](https://zenodo.org/badge/latestdoi/420721461)
