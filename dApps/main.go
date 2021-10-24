@@ -22,13 +22,13 @@ func main() {
 	//Get the contract address from hex string
 	addr := common.HexToAddress("0xB202CCCd3b66F63f567D40d6e22C1C1BAB627824")
 
-	// Bind to an already deployed contract and print coolNumber
-	contract, err := NewCoolNumberContract(addr, conn)
+	// Bind to an already deployed contract and print randomNumber
+	contract, err := NewRandomNumberContract(addr, conn)
 	if err != nil {
-		log.Fatalf("Failed to instantiate coolNumber contract: %v", err)
+		log.Fatalf("Failed to instantiate randomNumber contract: %v", err)
 	} else {
-		coolNumber, _ := contract.CoolNumber(&bind.CallOpts{})
-		fmt.Println("The coolNumber is:", coolNumber)
+		randomNumber, _ := contract.RandomNumber(&bind.CallOpts{})
+		fmt.Println("The randomNumber is:", randomNumber)
 	}
 
 	//Print block header

@@ -18,7 +18,7 @@ import (
 func main() {
 	fmt.Println("########################################################################")
 	//-->Create an IPC based RPC connection to a remote node (here our RPI)
-	conn, err := ethclient.Dial("http://192.168.1.110:8545")
+	conn, err := ethclient.Dial("http://192.168.1.38:8545")
 	if err != nil {
 		log.Fatalf("Failed to connect to the Ethereum client: %v", err)
 	} else {
