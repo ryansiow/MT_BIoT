@@ -14,4 +14,7 @@ Private blockchain and how to launch one
 Public blockchain on the Ropsten Testnet
 
 ### DOI
+## Scripts
 [![DOI](https://zenodo.org/badge/420721461.svg)](https://zenodo.org/badge/latestdoi/420721461)
+## Data set
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5603282.svg)](https://doi.org/10.5281/zenodo.5603282)
